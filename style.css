@@ -1,0 +1,557 @@
+/*
+Theme Name: Rodrigo Simoni 2024
+Description: Rodrigo Simoni Portfolio.
+Version: 1.0
+Author: Rodrigo Simoni
+*/
+
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/** Reset das tags do HTML 5 **/
+header, nav, section, article, aside, footer {display: block;}
+
+::selection {
+  background: #1C1C1C;
+  color: #fff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body a, button {
+	transition: 0.1s ease-in-out all;
+	-webkit-transition: 0.1s ease-in-out all;
+	-o-transition: 0.1s ease-in-out all;
+}
+
+body a:hover, button:hover {
+	transition: 0.1s ease-in-out all;
+	-webkit-transition: 0.1s ease-in-out all;
+	-o-transition: 0.1s ease-in-out all;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	width: 100%;
+	height: auto;
+	display: table;
+	scroll-behavior: smooth;
+}
+
+.grey {
+	padding: 140px 0;
+	background: #F4F5F8;
+}
+
+/******* HEADER *******/
+
+header {
+	width: 100%;
+	display: table;
+	margin-top: 20px;
+	position: fixed;
+	z-index: 1000;
+}
+
+header nav {
+	width: 100%;
+	display: table;
+	padding: 10px;
+	background: #1C1C1C;
+	border-radius: 12px;
+}
+
+header h6 {
+	font-size: 20px;
+	font-weight: 600;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+header h6 i {
+	color: #fff;
+}
+
+header h6 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header h6 a:hover {
+	color: #fff;
+}
+
+header h6 span {
+	color: #ccc;
+	font-weight: 300;
+}
+
+header nav a.cta {
+	padding: 10px 20px;
+	background: #fff;
+	border: none;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #1C1C1C;
+	border: 1px solid #1C1C1C;
+	float: right;
+	text-decoration: none;
+}
+
+header nav a:hover.cta {
+	color: #fff;
+	background: #1C1C1C;
+	border: 1px solid #fff;
+}
+
+/******* HERO *******/
+
+main {
+	width: 100%;
+	display: table;
+}
+
+.hero {
+	padding: 220px 0;
+}
+
+.hero h1 {
+	font-size: 80px;
+	line-height: 86px;
+	font-weight: 600;
+	color: #1C1C1C;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: 400;
+	color: #666;
+}
+
+/******* SERVICE HOME *******/
+
+.service-home {
+	padding: 100px 0;
+}
+
+.division {
+	border-bottom: 1px solid #ccc;
+	padding: 40px 0;
+}
+
+.service-home h5 {
+	font-size: 30px;
+	font-weight: 300;
+	color: #1C1C1C;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.service-home h2 {
+	font-size: 54px;
+	line-height: 38px;
+	font-weight: 600;
+	color: #1C1C1C;
+	margin-bottom: 24px;
+}
+
+.service-home p {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.service-home a {
+	text-decoration: none;
+	color: #1C1C1C;
+}
+
+.service-home a:hover {
+	color: #cf2e2e;
+}
+
+.service-home article {
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+/******* SERVICES *******/
+
+.services {
+	width:  100%;
+	display: table;
+	padding: 100px 0 0 0;
+}
+
+.services h2 {
+	font-weight: 700;
+	font-size:  50px;
+	line-height: 56px;
+	text-align: center;
+	color: #eee;
+	padding-bottom: 80px;
+}
+
+.services h3 {
+	font-weight:  700;
+	font-size:  28px;
+	color: #ccc;
+}
+
+.services p {
+	font-weight:  300;
+	font-size:  16px;
+	line-height: 24px;
+	color: #A6A6A6;
+	padding: 16px 0 16px 0;
+}
+
+.services span {
+	font-weight:  300;
+	font-size:  18px;
+	line-height: 22px;
+	color: #eee;
+	padding: 8px 18px;
+	background: #333;
+	border-radius: 35px;
+	margin: 16px 0 0 0;
+	display: table;
+}
+
+/******* CONTATO *******/
+
+.contato {
+	width:  100%;
+	display: table;
+	margin: 150px 0;
+	background: #1A1A1A;
+	padding: 40px 0 60px 0;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.contato p {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 48px;
+	color: #eee;
+	margin-bottom: 40px;
+}
+
+.contato a {
+	font-weight: 700;
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+	padding: 14px 24px;
+	text-decoration: none;
+	border-radius: 65px;
+}
+
+.contato a:hover {
+	background: #9c88ff;
+}
+
+/******* FOOTER *******/
+
+footer {
+	width:  100%;
+	display: table;
+	padding-bottom: 60px;
+	clear: both;
+}
+
+footer p {
+	font-weight: 300px;
+	font-size: 14px;
+	color: #666;
+	text-align: right;
+}
+
+footer a {
+	font-weight:  600;
+	color:  #ccc;
+	font-size:  26px;
+	text-decoration: none;
+}
+
+footer .grey {
+	color: #666 !important;
+}
+
+footer a:hover {
+	color: ##191B21;
+}
+
+/******* ABOUT *******/
+
+.about {
+	width:  100%;
+	display: table;
+	padding: 120px 0 100px 0 0;
+	text-align: center;
+}
+
+.about h1 {
+	font-weight:  700;
+	font-size:  50px;
+	line-height: 56px;
+	color: #eee;
+	padding: 100px 0 40px 0;
+}
+
+.about p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: #ccc;
+}
+
+.about img {
+	margin: 30px 0;
+}
+
+/******* CASE *******/
+
+.case {
+	width:  100%;
+	display: table;
+	padding: 120px 0 100px 0 0;
+}
+
+.case h1 {
+	font-weight:  700;
+	font-size:  50px;
+	line-height: 56px;
+	color: #eee;
+	padding: 100px 0 30px 0;
+}
+
+.case h2 {
+	font-weight:  700;
+	font-size:  30px;
+	line-height: 36px;
+	color: #ccc;
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+
+.case h3 {
+	font-weight:  700;
+	font-size:  30px;
+	line-height: 40px;
+	color: #eee;
+	padding: 40px 0 20px 0;
+}
+
+.case p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: #ccc;
+	padding-bottom: 20px;
+}
+
+.case img {
+	margin: 30px 0;
+}
+
+.case-img {
+	width:  100%;
+	display: table;
+	padding: 120px 0 100px 0 0;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.case-flags {
+	width:  100%;
+	display: table;
+	padding: 10px 0 60px 0;
+	text-align: center;
+}
+
+.case-flags span {
+	font-weight:  300;
+	font-size:  16px;
+	line-height: 22px;
+	color: #fff;
+	padding: 8px 18px;
+	background: #333;
+	border-radius: 35px;
+	margin: 0 5px;
+	display: inline;
+}
+
+
+
+/** MEDIA QUERIES **/
+
+@media (max-width: 992px) {
+
+/******* HEADER *******/
+
+nav {
+	width: 100%;
+	top: 5%;
+	left: 50%;
+	padding: 16px 5px;
+}
+
+nav ul li {
+	font-size: 14px;
+}
+
+nav ul li a {
+	padding: 10px;
+}
+
+/******* MAIN *******/
+
+main {
+	padding: 120px 0 20px 0;
+}
+
+main h1 {
+	font-size:  32px;
+	line-height: 42px;
+}
+
+/******* BRAND *******/
+
+.brand {
+	overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  padding: 26px 0;
+}
+
+.brand img {
+	display: inline-block;
+	width: 100px;
+	height: auto;
+}
+
+/******* ARTICLE *******/
+
+article {
+	padding: 40px 0;
+}
+
+/******* SERVICES *******/
+
+.services {
+	padding: 30px 0 0 0;
+}
+
+.services h2 {
+	font-size:  32px;
+	line-height: 38px;
+	padding: 40px 0 0 0;
+	text-align: left;
+}
+
+.services h3 {
+	margin: 60px 0 0 0;
+}
+
+.services span {
+	padding: 8px 18px;
+	border-radius: 35px;
+	margin: 16px 0 0 0;
+}
+
+/******* CONTATO *******/
+
+.contato {
+	margin: 80px 0;
+	padding: 40px 20px;
+}
+
+.contato p {
+	font-size: 26px;
+	line-height: 34px;
+}
+
+/******* FOOTER *******/
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	font-size:  30px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 16px;
+}
+
+/******* ABOUT *******/
+
+.about {
+	padding: 0;
+	margin: 0;
+}
+
+.about h1 {
+	font-size:  30px;
+	line-height: 38px;
+	padding: 80px 0 20px 0;
+}
+
+.about p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.about img {
+	margin: 30px 0;
+}
+
+/******* CASE *******/
+
+.case span {
+	padding: 8px 18px;
+	border-radius: 35px;
+	margin: 16px 10px 0 0;
+	display: inline-block;
+}
+
+}
